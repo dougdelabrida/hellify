@@ -4,7 +4,7 @@ export class Engine {
   private _observer: MutationObserver;
   private _config: MutationObserverInit;
   private _target: HTMLElement;
-  private _blockList: Block[];
+  private _blockList: any;
 
   constructor(
     target: HTMLElement = document.body,
@@ -18,6 +18,7 @@ export class Engine {
 
     this._target = target;
     this._config = config;
+    this._blockList = [];
 
     this._observer.observe(this._target, this._config);
   }
