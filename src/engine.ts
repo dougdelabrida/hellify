@@ -4,7 +4,7 @@ export class Engine {
   private _observer: MutationObserver;
   private _config: MutationObserverInit;
   private _target: HTMLElement;
-  private _blockList: any;
+  private _blockList: Block[];
 
   constructor(
     target: HTMLElement = document.body,
