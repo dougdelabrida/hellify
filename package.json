@@ -1,6 +1,6 @@
 {
   "name": "hellify",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Just a hack for writing powerful inline-css",
   "main": "dist/index.js",
   "source": "src/index.ts",
