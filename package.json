@@ -1,0 +1,16 @@
+{
+  "name": "hellify",
+  "version": "0.0.1",
+  "description": "Just a hack for writing powerful inline-css",
+  "main": "dist/index.js",
+  "source": "src/index.ts",
+  "scripts": {
+    "build": "microbundle --target=es5",
+    "dev": "microbundle watch"
+  },
+  "author": "Douglas Delabrida",
+  "license": "MIT",
+  "devDependencies": {
+    "microbundle": "^0.4.4"
+  }
+}
