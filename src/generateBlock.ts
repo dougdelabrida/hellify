@@ -2,7 +2,7 @@ import { Block } from "./types";
 import { generateClassName } from "./utils";
 
 
-export default function generateBlock (xPath: XPathExpression, style: Object) : Block {
+export default function generateBlock (xPath: string, style: Object) : Block {
   const _style: CSSStyleDeclaration = document.createElement('div').style;
   
   return {
