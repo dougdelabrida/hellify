@@ -4,7 +4,7 @@ import generateBlock from "./generateBlock";
 export function hell (callback) : void {
   const engine = new Engine();
 
-  function style (xPath: XPathExpression, style: Object) : void {
+  function style (xPath: string, style: Object) : void {
     engine.registerBlock(generateBlock(xPath, style));
   }
 

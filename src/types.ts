@@ -1,5 +1,5 @@
 export interface Block {
-    xPath: XPathExpression;
+    xPath: string;
     className: string;
     style: CSSStyleDeclaration;
 }
