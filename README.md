@@ -2,10 +2,13 @@
 
 Hellify allows you to write CSS using XPath selector.
 
+## Install
+`npm i hellify`
+
 ## Usage example
 
 ```
-import { hell } from '../hellify';
+import { hell } from 'hellify';
 
 hell(style => {
   style(`//*[@id="tab-pane-0"]/table[2]/tbody/tr/td/input[2]/..`, {
